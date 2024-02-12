@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    height: 100vh;
+}
+
+main {
+    padding: 20px;
+}
+
+aside {
+    width: 200px;
+    background-color: #f2ec94;
+    padding: 20px;
+}
+
+aside li {
+    height: 50px;
+    background-color: rgb(125, 213, 228);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: transparent;
+}
+aside li:hover {
+    background-color: rgb(247, 230, 79);
+}
+
+aside li a {
+    margin-left: 50px;
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+}
+
+
+.text {
+    border: solid black 2px;
+    margin-left: 100px;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 6px 6px 4px 6px #e0e059;
+}
+
+.text h1 {
+
+    color: blueviolet;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+table {
+    margin-left: 100px;
+    width: 800px;
+    background-color: #e9e5b1;
+}
+
+h2 {
+    display: flex;
+    text-align: center;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    padding: 1rem;
+    text-align: left;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #a99cecfe;
+    cursor: pointer;
+}
+
+
+
+
+
+tbody tr:hover {
+    background-color: rgba(248, 229, 108, 0.4);
+}
+
+
+
+
+
+label {
+    display: block;
+    color: blue;
+    font-size: 18px;
+    font-weight: 18px;
+    margin-bottom: 10px;
+}
+
+input ,textarea , select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: transparent;
+    box-shadow: 3px 3px 2px 3px #fff981;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button {
+    background-color: rgb(247, 247, 115);
+    color: black;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+form {
+    margin-left: 100px;
+    border: solid black 2px;
+    padding: 20px;
+    height: 500px;
+    width: 400px;
+    background-color: rgb(191, 234, 234);
+}
+button:hover{
+    background-color: rgb(24, 24, 54);
+    color: wheat;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #555;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        nav span {
+            color: #fff;
+            font-size: 1.5em;
+            
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .linkshow{
+            color: #fff;
+            font-size: 1.5em;
+        }
+        section {
+            padding: 20px;
+            text-align: left;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <span>Menu</span>
+        <div class="linkshow">
+            <a href="home.html">Home</a>
+            <a href="list.html">List</a>
+            <a href="table.html">Table</a>
+            <a href="form.html">Form</a>
+        </div>
+    </nav>
+
+    <section>
+        <h2>Form</h2>
+        <form>
+        <label>ID:
+            <input type="text" />
+        </label>
+    </br>
+        <label>Email:
+            <input type="email" />
+        </label>
+    <br>
+        <label>Gender:
+            <input type="radio" /> Male
+            <input type="radio" /> Female
+        </label>
+    <br>
+
+    <label>Program:
+    </label>
+    <select>
+        <option>CSE</option>
+        <option>SWE</option>
+    </select>
+
+    <br>
+    <label>Review:
+        <input type="textarea" />
+    </label>
+</br>
+<button>Submit</button> <button>reset</button>
+    </form>
+    </section>
+
+
+    <footer>
+        <p>Copyright @ Zayed Hasan</p>
+    </footer>
+
+</body>
+</html>
