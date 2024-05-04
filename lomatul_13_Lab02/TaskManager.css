@@ -1,32 +1,69 @@
-.date-picker {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    padding: 10px;
-    background-color: #f0f0f0;
-}
-
-.date-picker button {
-    padding: 8px;
-    cursor: pointer;
-}
-
-.task-table {
-    width: 100%;
+table {
     border-collapse: collapse;
-}
-
-.task-table th, .task-table td {
-    border: 1px solid #dddddd;
-    padding: 10px;
+    width: 100%;
+    border: 1px solid;
+  }
+  
+  th, td {
+    padding: 8px;
     text-align: left;
-}
+    border-bottom: 1px solid #DDD;
+    border: 1px solid;
+  }
+  
+  tr{
+    height: 3em;
+  }
 
-.task-table th {
-    background-color: #f2f2f2;
-}
+  #currentWeek{
+    text-align: center;
+  }
+  
+  td:hover {
+    background-color: #e2eeee;
+  }
 
-.task-table td {
-    vertical-align: top;
-}
+  td:first-child {
+    font-weight: bold;
+    background-color: #e2eeee;
+    text-align: center;
+    width: 4em;
+  }
+
+  .hidden{
+    display: none;
+  }
+
+  button{
+    border-radius: 20%;
+    transition-duration: 0.4s;
+    border-width: 0;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    background-color:#e2eeee;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: cadetblue; 
+    color: white;
+  }
+
+  #prevWeekBtn {
+    float: left;
+  }
+  
+  #nextWeekBtn {
+    float: right;
+  }
+
+  #topbar{
+    padding:2em 0.5em;
+  }
+
+  #taskDetailsDiv {
+    padding: 10px;
+    margin-top: 20px;
+    width: 300px;
+  }
